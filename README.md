@@ -1,5 +1,7 @@
 # T-Cubed — Know the Word. Live the Word.
 
+**Play it here: https://olu4wealth.github.io/t-cubed-ai/**
+
 An adaptive Scripture challenge game for **1 Timothy, 2 Timothy, and Titus**. No backend, no account — progress lives in your browser.
 
 ## Play
