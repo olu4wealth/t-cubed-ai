@@ -60,7 +60,7 @@ export default function Home() {
   }
 
   // eslint-disable-next-line react-hooks/set-state-in-effect -- localStorage hydration after mount (no window during prerender)
-  useEffect(()=> { loadProgress(); try {setName(localStorage.getItem('tcubed-name') || 'Friend'); setSaved(JSON.parse(localStorage.getItem('tcubed-verses')||'[]')); if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(()=>{});} catch {} },[]);
+  useEffect(()=> { loadProgress(); try {setName(localStorage.getItem('tcubed-name') || 'Friend'); setSaved(JSON.parse(localStorage.getItem('tcubed-verses')||'[]')); if('serviceWorker' in navigator) navigator.serviceWorker.register('/t-cubed-ai/sw.js').catch(()=>{});} catch {} },[]);
   useEffect(()=> { if(toast) {const t=setTimeout(()=>setToast(''),3000);return()=>clearTimeout(t);} },[toast]);
   useEffect(()=> {document.body.style.overflow=game||report||modal?'hidden':'';return()=>{document.body.style.overflow='';};},[game,report,modal]);
 

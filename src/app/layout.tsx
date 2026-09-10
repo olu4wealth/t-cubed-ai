@@ -9,10 +9,10 @@ const newsreader = Newsreader({ subsets: ["latin"], variable: "--font-verse", di
 export const metadata: Metadata = {
   title: "T-Cubed — Know the Word. Live the Word.",
   description: "Go deeper in 1 Timothy, 2 Timothy, and Titus. Play adaptive Scripture challenges, discover your strengths, and build a personal study practice.",
-  manifest: "/manifest.webmanifest",
+  manifest: "/t-cubed-ai/manifest.webmanifest",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    icon: [{ url: "/t-cubed-ai/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/t-cubed-ai/apple-touch-icon.png", sizes: "180x180" }],
   },
   openGraph: {
     title: "T-Cubed — Know the Word. Live the Word.",
